@@ -1,0 +1,47 @@
+.viewCamps {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 450px 90px 170px  170px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header header  header header"
+        "main main  sidebar sidebar"
+        "body body  . ."
+        "body body footer1 footer2"
+}
+
+.camp_pic {
+    max-height: 300px;
+    max-width: 530px;
+    grid-area: main;
+}
+
+.camp_contacts {
+    padding: 0px 8px;
+    grid-area: body;
+}
+
+.summary {
+    grid-area: sidebar;
+}
+
+.campName {
+    grid-area: header;
+}
+
+.socialMedia {
+    height: 36px;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.viewButton {
+    margin: 8px !important;
+    grid-area: footer1;
+}
+
+.faveButton {
+    margin: 8px !important;
+    grid-area: footer2;
+}
+

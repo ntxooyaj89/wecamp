@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+
+.alert {
+    background-color: #ff4545;
+    margin: 50px;
+}
+
+form {
+    background-color: #E6E1c5;
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.userRegistrationForm {
+    background-color: #E6E1c5;
+    width: 30%;
+    height: auto;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 2px;
+}
+
+input {
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.log-in, .register {
+  background-color: #127c96;
+  border-radius: 4px;
+  color: #f8f8f8;
+  min-height: 50px;
+  min-width: 100px;
+  outline:0;
+  cursor: pointer;
+}
+
+button {
+    border: none;
+}
+
+.log-out  {
+  background-color:#098fa3;
+  border-radius: 3px;
+  color: #f8f8f8;
+  min-height: 50px;
+  min-width: 100px;
+  outline:none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.log-in:hover, .log-out:hover, .register:hover {
+  background-color: #127c96;
+}
+
+/* This line makes the "Register" and "Login" buttons look like links */
+.link-button {
+    background:none;
+    color:inherit;
+    border:none;
+    padding:0;
+    font: inherit;
+    outline:0;
+    border-bottom:1px solid #444; 
+    cursor: pointer;
+}
+
+.campsGroup {
+    margin: 10px 30px;
+}
+
+.aboutText {
+    margin: 20px 40px 0px 40px;
+}
+
+h1 {
+    text-align: center;
+    /* font-family: 'Oswald', sans-serif; */
+}
+
+.wecamp {
+    font-family: 'Oswald', sans-serif;
+    color: #395c68;
+}
+
+.slogan {
+    text-align: center;
+}
